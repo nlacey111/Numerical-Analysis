@@ -1,3 +1,5 @@
+% Consider A_j x - b_j, and implement Jacobi and Gauss-Seidel on the examples. b is a unit vector. 
+
 clear all
 
 A1 = [3, 0, 4; 7, 4, 2; -1, 1, 2];
