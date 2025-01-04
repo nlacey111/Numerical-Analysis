@@ -1,3 +1,6 @@
+% Calculate and print, to 16 digits, the least squares coefficient vector x by the following methods:
+% Normal equations, QR by modified gram-schmidt, x = A\b, and SVD. 
+
 m = 50;
 n = 12;
 t = linspace(0,1,m);
