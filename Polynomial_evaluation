@@ -1,3 +1,5 @@
+% Consider the polynomial p(x) = (x-2)^9, plot P for different values of x, evaluating p via its coefficients and the expression (x-2)^9. 
+
 clear all
 
 t = linspace(1.920,2.080,(2.080-1.920)*1000);
