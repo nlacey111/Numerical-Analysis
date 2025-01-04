@@ -1,3 +1,5 @@
+% for the ode: -u''(x) = f(x), x in [0,1], with homogeneous BCs, empirically confirm that the numerical scheme
+% - D+D- u_j = f_j is second order convergent. 
 
 %algorithm 
 scaled_error = zeros(1,1000);
