@@ -1,3 +1,4 @@
+% Write a matrix that spells out "hello"
 A = [
     0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
     0 1 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0;
@@ -17,6 +18,8 @@ A = [
 
 % spy(A);
 
+% Call SVD to computer the singular value of A. What is the rank of A?
+
 [U,S,V] = svd(A); 
 
 
@@ -24,7 +27,7 @@ A = [
 figure;
 tiledlayout('flow');
 
-% ?????
+
 nexttile
 semilogy(diag(S))
 title("Semilogy")
@@ -33,6 +36,8 @@ plot(diag(S))
 title("Plot")
 
 rank(A);
+
+% for each i from 1 to rank(A), construct the rank i matrix that is the best approximation for A in the 2 norm. 
 
 for i = 1:10 
     sigma = zeros(i,i);
@@ -50,12 +55,5 @@ for i = 1:10
 end
 
 diag(S) %singular vals
-
-
-
-
-
-
-
 
 
