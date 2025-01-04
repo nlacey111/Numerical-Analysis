@@ -1,3 +1,6 @@
+% Implement the Cholesky method to solve Ax = b, where A is a symmetric positive definite matrix. 
+% Suggest three test problems, and compare results with matlab's "Chol"
+
 clear all 
 
 
